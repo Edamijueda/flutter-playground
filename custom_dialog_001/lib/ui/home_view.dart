@@ -10,14 +10,6 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
-  String displayAutoBio = 'Yes';
-
-  /*@override
-  void initState() {
-    // TODO: implement initState
-    displayAutoBio = 'Yes';
-    super.initState();
-  }*/
 
   @override
   Widget build(BuildContext context) {
