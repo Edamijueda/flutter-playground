@@ -1,5 +1,5 @@
-import 'package:custom_dialog_001/ui/dialog_setup/custom_dialog_viewmodel.dart';
 import 'package:flutter/material.dart';
+import 'package:playground/ui/custom_dialog/custom_dialog_viewmodel.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
@@ -70,12 +70,13 @@ class _CustomDialogViewState extends State<CustomDialogView> {
                         hintText: 'Enter bio',
                         border: const OutlineInputBorder(),
                         focusedBorder: const OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.blue, width: 1.0),
+                          borderSide:
+                              BorderSide(color: Colors.blue, width: 1.0),
                         ),
                         errorText: isNotValid ? errorMsg : null,
                         errorBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.red.shade700,
-                              width: 1.0),
+                          borderSide: BorderSide(
+                              color: Colors.red.shade700, width: 1.0),
                           borderRadius: BorderRadius.circular(4.0),
                         ),
                       ),

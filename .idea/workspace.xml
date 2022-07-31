@@ -8,7 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="619f1c94-fb0e-4561-8631-4eaabbb19597" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/playground/lib/core/data/book_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/lib/core/model/book.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/lib/core/services/books_api.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/lib/ui/search_in_listview/components.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/lib/ui/search_in_listview/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/lib/ui/search_in_listview/viewmodel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/playground/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/app/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/app/app.router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/app/app.router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/enums/dialog_type.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/core/enums/dialog_type.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/ui/dialog_setup/custom_dialog_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/ui/dialog_setup/custom_dialog_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/ui/dialog_setup/dialog_ui_setup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/ui/dialog_setup/dialog_ui_setup.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/ui/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/ui/playground_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/lib/ui/home_viewmodel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/lib/ui/playground_viewmodel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/playground/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/playground/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/playground/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +65,25 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/custom_dialog_001/lib/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playground/lib/app" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/playground/lib/app" />
+      <recent name="$PROJECT_DIR$/playground/lib" />
+      <recent name="$PROJECT_DIR$/playground/lib/model" />
       <recent name="$PROJECT_DIR$/custom_dialog_001/lib/assets" />
       <recent name="$PROJECT_DIR$/custom_dialog_001/lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/playground/lib/core/services" />
+      <recent name="$PROJECT_DIR$/playground/lib/core" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/custom_dialog_001/lib/main.dart" />
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/playground/lib/main.dart" />
       <method v="2" />
     </configuration>
   </component>

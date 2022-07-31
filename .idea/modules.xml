@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/custom_dialog_001/custom_dialog_001.iml" filepath="$PROJECT_DIR$/custom_dialog_001/custom_dialog_001.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom_dialog_001/android/custom_dialog_001_android.iml" filepath="$PROJECT_DIR$/custom_dialog_001/android/custom_dialog_001_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playground/playground.iml" filepath="$PROJECT_DIR$/playground/playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playground/android/playground_android.iml" filepath="$PROJECT_DIR$/playground/android/playground_android.iml" />
     </modules>
   </component>
 </project>

@@ -1,10 +1,10 @@
-import 'package:custom_dialog_001/ui/home_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:playground/ui/custom_dialog/dialog_ui_setup.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import 'app/app.locator.dart';
 import 'app/app.router.dart';
-import 'ui/dialog_setup/dialog_ui_setup.dart';
 
 /// Follow the step below to create a custom_Dialog
 /// 1. Install stacked package(by filledStacks) for state management
@@ -15,9 +15,13 @@ import 'ui/dialog_setup/dialog_ui_setup.dart';
 /// flutter pub run build_runner build --delete-conflicting-outputs
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   setupLocator(); // Register d services functions registered in d locator
   setupDialogUI(); // Dis will register our dialogUI
-  runApp(const MyApp());
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]).then((value) => runApp(const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -41,4 +45,5 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: StackedRouter().onGenerateRoute,
     );
   }
+  // 'flutter pub run build_runner build --delete-conflicting-outputs'
 }

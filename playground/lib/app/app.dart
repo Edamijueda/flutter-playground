@@ -3,15 +3,14 @@
 /// Writing to this file(app.dart) and running:
 /// flutter pub run build_runner build --delete-conflicting-outputs
 /// will auto-generate app.locator.dart and app.router.dart for you
-
-import 'package:custom_dialog_001/ui/home_view.dart';
+import 'package:playground/ui/playground_view.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 @StackedApp(
   routes: [
     MaterialRoute(
-      page: HomeView,
+      page: PlaygroundView,
       initial: true,
     ),
   ],
